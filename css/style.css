@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	font-family: 'Lato',sans-serif;
+	
+}
+
+.bg-primary-color {
+	background-color: #fff;
+}
+
+.bg-secondary-color {
+	background-color: #050505;
+}
+
+.primary-color {
+	color: #050505;
+}
+
+.secondary-color {
+	color: #7a7a7a;
+	
+}
+
+/*navbar*/
+
+#navbar {
+	border-bottom: 1px solid #7a7a7a;
+}
+
+#navbar a:hover  {
+	color: #7a7a7a;
+}
+
+#navbar a.active{
+	border-bottom: 1px solid #050505;
+}
+
+.navbar-brand {
+	display: flex;
+}
+
+.navbar-brand img {
+	width: 40px;
+}
+
+.navbar-brand span {
+	font-weight: 700;
+	font-size: 1.5em;
+	margin-left: 0.5em;
+}
+
+#navbar-items .navbar-nav{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+#navbar-items .nav-item {
+	margin : 0 1em;
+}
+
+/* SLIDER */
+#slider {
+	margin-top: 8em; /*distancia barra de navegação*/
+	margin-bottom: 1em; /*Distancia dos Conteudos abaixo do Slider*/
+}
+ 
+#slider .carousel-caption {
+	bottom: 3em; /*Distancia do bottom, Subir elemento*/
+} 
+
+#slider .carousel-caption h5{
+	font-size: 2.5em; /*Tamanho Fonte Titulo*/
+	text-shadow: #000 2px 2px; /*Sombreamento Titulo*/
+}
+
+.btn {
+	border-radius: 0; /*Tirando o Raio das Bordas dos botões*/
+}
+
+#slider .btn{ /*Button do Slider*/
+	padding: 0.3 0.8em; /*Aumenta o Button*/
+}
+
+.carousel-control prev i,
+.carousel-control next i{
+	color: #111; /*Alteração Color Button*/
+	font-size: 3em; /*Alteração Tamanho Button*/
+} 
+
+.carousel-indicators[data-bs-target]{
+background-color: #222;
+opacity: 0.8;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
