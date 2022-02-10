@@ -87,7 +87,10 @@
 
 .btn {
   border-radius: 0;
+  
+  background-color: #1f4242;
 }
+
 
 #slider .btn {
   padding: 0.3em 0.8em;
@@ -230,6 +233,7 @@
   #featured-images .banner-content {
     opacity: 0;
   }
+
 }
 
 /* INFO */
@@ -259,10 +263,26 @@ width: 300px;
 
 }
 
+#btn-epro{
+  display: block;
+  margin-top: 50px;
+  
+  
+  }
+
 @media (min-width: 768px) {
   #info-content {
     padding: 3.5em;
   }
+  
+  #btn-saber-mais{
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;;
+    width: 300px;
+    
+    }
+
 }
 
 /* FOOTER TOP */
