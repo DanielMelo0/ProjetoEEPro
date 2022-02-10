@@ -270,6 +270,14 @@ width: 300px;
   
   }
 
+  .img-responsive{
+    margin: 0 auto;
+    max-width: 350px;
+    max-height: 250px;
+  }
+
+
+
 @media (min-width: 768px) {
   #info-content {
     padding: 3.5em;
