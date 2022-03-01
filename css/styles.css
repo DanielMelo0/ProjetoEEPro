@@ -2,6 +2,10 @@
   font-family: 'Lato', sans-serif;
 }
 
+.clear{
+  clear: both;
+}
+
 .bg-primary-color {
   background-color: #235857;
 }
@@ -380,4 +384,14 @@ width: 300px;
   #links-container {
     padding-left: 2em;
   }
+  #li-about{
+    font-size: 19px;
+  }
+  #p-about{
+    font-size: 19px;
+  }
+}
+
+#about-us{
+  margin-top: 7em;
 }
