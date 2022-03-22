@@ -274,18 +274,59 @@ width: 300px;
   
   }
 
+.bt-epro{
+  align-items: center;
+  display: block; 
+  width: auto;
+  margin-top: 2em;
+}
+
   .img-responsive{
     margin: 0 auto;
     max-width: 350px;
     max-height: 250px;
   }
 
+.li-contact{
+   
+   margin-top: 2.5em;
+   font-size: 35px;
+   color: #296868;
+}
+
+
+.title-service-eepro{
+  text-align: center;
+   margin-bottom: 2em;
+}
+
+
+
+  @media (min-width: 768px){
+    #img-content{
+      height: 80vh;
+    }
+  }
 
 
 @media (min-width: 768px) {
   #info-content {
     padding: 3.5em;
   }
+
+@media(max-width: 768px){
+  #btn-eepro-info{ /* Btn Services*/
+    margin-top: 3.5em;
+  }
+  #btn-eepro-info2{ /* Btn Services*/
+    margin-top: -0.4em;
+  }
+
+  #title-service{
+    font-size: 40px;
+  }
+
+}
   
   #btn-saber-mais{
     display: block;
@@ -392,6 +433,101 @@ width: 300px;
   }
 }
 
-#about-us{
+/* About Us Section */
+#about-us{ /*About Us Section*/
   margin-top: 7em;
 }
+
+/* Team Section */
+#team{
+  margin-top: 9em;
+}
+
+#title-team{
+  font-size: 28px;
+  text-align: center;
+  font-weight:450; 
+}
+
+#p-team{
+  font-size: 20px;
+  text-align: center;
+  font-weight:420; 
+}
+
+#cont-title-team{
+  margin-bottom: 2.5em;
+}
+
+.fone-number{
+  color: #235857;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.mail-contact{
+  color: #235857;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#title-property{
+  margin-top: 1em;
+}
+
+#mini-banners2 {
+  margin-bottom: 0em;
+}
+
+#mini-banners2 .card {
+  padding: 2em 0.3em;
+  border-radius: 0;
+}
+
+#mini-banners2 i {
+  font-size: 4em;
+}
+
+#mini-banners2 .card-title {
+  margin-bottom: 1.5em;
+}
+
+#mini-banners2 .btn {
+  margin-top: 1.5em;
+  padding: 0.6em 1.2em;
+}
+
+#mini-banners2 .card {
+  margin-bottom: 1em;
+}
+
+
+/**Planejamento e Serviços*/
+#li-planejamento{
+  list-style: none; 
+  text-decoration: none;
+  margin-top: 1em;
+  color: #235857;
+}
+
+#li-planejamento :hover{
+  color: #235857;
+}
+
+
+/* Organização e Planejamento*/
+#planejamento2{
+      margin-top: 4em;
+}
+
+#planejamento{
+  margin-top: 7em;
+}
+
+@media (min-width: 768px) {
+  #planejamento{
+    font-size: 18px;
+}
+#planejamento2{
+  margin-top: 3em;
+}}
