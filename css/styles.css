@@ -90,9 +90,14 @@
 }
 
 .btn {
-  border-radius: 0;
-  
+  border-radius: 5px;  
   background-color: #1f4242;
+}
+
+.btn:hover{
+  border-radius: 5px;  
+  background-color: #1f4242; 
+ 
 }
 
 
@@ -240,7 +245,7 @@
 
 }
 
-/* INFO */
+/* INFO Pagina Inicial */
 #info-content {
   margin-bottom: 4em;
   padding: 4em 1em;
@@ -438,6 +443,10 @@ width: 300px;
   margin-top: 7em;
 }
 
+#referencias{
+  margin-top: 13em;
+}
+
 /* Team Section */
 #team{
   margin-top: 9em;
@@ -502,22 +511,47 @@ width: 300px;
 }
 
 
-/**Planejamento e Serviços*/
+/** Organização e Planejamento Sessão Serviços*/
+
 #li-planejamento{
+  list-style: none; 
+  text-decoration: none;
+}
+
+.li-planejamentos a{
   list-style: none; 
   text-decoration: none;
   margin-top: 1em;
   color: #235857;
 }
 
-#li-planejamento :hover{
-  color: #235857;
+.li-planejamentos a:hover{
+  color: #2B7473;
 }
 
+#li-manutencao{
+	margin-right: 2.5em;
+}
 
-/* Organização e Planejamento*/
+#li-investimento{
+	margin-left: 0.5em;
+}
+
+#planejamento2 li{
+  list-style: none; 
+  text-decoration: none;
+}
+
+#card-planejamento{	
+	height: auto;
+	margin-top: 1em;
+	padding: 10px;
+}
+#card-planejamento li{	
+	margin-top: 0.7em;
+}
 #planejamento2{
-      margin-top: 4em;
+  margin-top: 4em;
 }
 
 #planejamento{
@@ -525,9 +559,23 @@ width: 300px;
 }
 
 @media (min-width: 768px) {
-  #planejamento{
-    font-size: 18px;
+#planejamento{
+font-size: 18px;
+margin-top: 8em;
 }
 #planejamento2{
   margin-top: 3em;
-}}
+}}	
+
+.references-cards{
+ margin-top: 3em;    
+}
+
+.card-reference{
+  padding: 0px;
+  margin-bottom: 2em;
+}
+
+.bt-references:hover{
+  background-color: #008000;
+}
