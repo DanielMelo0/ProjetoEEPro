@@ -444,7 +444,7 @@ width: 300px;
 }
 
 #referencias{
-  margin-top: 13em;
+  margin-top: 10em;
 }
 
 /* Team Section */
@@ -474,7 +474,19 @@ width: 300px;
   font-size: 18px;
 }
 
+.fone-number:hover{
+  color: #235857;
+  text-decoration: none;
+  font-size: 18px;
+}
+
 .mail-contact{
+  color: #235857;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.mail-contact:hover{
   color: #235857;
   text-decoration: none;
   font-size: 20px;
