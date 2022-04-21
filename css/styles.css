@@ -292,8 +292,7 @@ width: 300px;
     max-height: 250px;
   }
 
-.li-contact{
-   
+.li-contact{   
    margin-top: 2.5em;
    font-size: 35px;
    color: #296868;
@@ -416,6 +415,10 @@ width: 300px;
   color: #e61e10;
 }
 
+#li-about2{
+  font-size: 18px;
+}
+
 @media (min-width: 768px) {
   #news-container {
     padding-right: 2em;
@@ -433,10 +436,15 @@ width: 300px;
   #li-about{
     font-size: 19px;
   }
+  #li-about2{
+    font-size: 25px;
+  }
   #p-about{
     font-size: 19px;
   }
 }
+
+
 
 /* About Us Section */
 #about-us{ /*About Us Section*/
@@ -478,6 +486,30 @@ width: 300px;
   color: #235857;
   text-decoration: none;
   font-size: 18px;
+}
+
+.fone-number2{
+  font-size: 25px;
+  text-decoration: none;
+  color: #296868;
+}
+
+.fone-number2:hover{
+  font-size: 25px;
+  text-decoration: none;
+  color: #296868;
+}
+
+.mail-contact2{
+  color: #235857;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+.mail-contact2:hover{
+  color: #235857;
+  text-decoration: none;
+  font-size: 35px;
 }
 
 .mail-contact{
