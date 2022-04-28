@@ -623,3 +623,17 @@ margin-top: 8em;
 .bt-references:hover{
   background-color: #008000;
 }
+.atualidade {
+	margin-top: 3em;
+	background-color: #e4e4e4;
+	font-weight: 300;
+	font-size: 20px;
+	padding: 10px 10px;
+	text-align: justify;
+}
+
+.atualidade svg{
+	width: 25px;
+	height: 25px;
+	
+}
